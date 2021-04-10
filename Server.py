@@ -38,7 +38,7 @@ if __name__ == '__main__':
                     print('\n ------------ Client Request ------------')
                     for m in msg: print(m)
                     print('\t----------------------------')
-                except: pass
+                except: print(msg, '\t----------------------------\n')
                 try:
                     f = open(filename)
                     outputdata = f.read()
